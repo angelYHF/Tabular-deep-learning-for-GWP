@@ -1,0 +1,2 @@
+Tabular deep learning package aims to make multi-task deep learning with tabular data for genome-wide prediction over real-world genomic data: mice data, pig data, wheat data, 14-cancer microarray data, and Loblolly pine data.
+There are totally eight models for the evaluation: LassoNet, TabR, TabNet, NODE, TabTransformer, FT-Transformer, AutoInt, Gandalf. These models have been built on Pytorch successfully. I will give the parameter space that we used quite soon. While some of them have been showed in the codes.
