@@ -1,0 +1,24 @@
+checkpoint_path: logs
+output_path: outputs
+
+setting:
+  init_random_points: 5
+  random_state_seed: 42
+  bo_iterations: 20
+  
+param_scope:
+  learning_rate:
+    is_discrete: false
+    value: [1e-4, 1e-5]
+  batch_size:
+    is_discrete: true
+    value: [64, 4096]
+  hidden_layer1_features:
+    is_discrete: true
+    value: [512, 1024] #从512到1024之间到所有整数
+  hidden_layer2_features:
+    is_discrete: true
+    value: [0, 256] # 等于0的时候相当于只有一层
+  M:
+    is_discrete: false
+    value: [0,20]
