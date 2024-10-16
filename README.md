@@ -32,9 +32,10 @@ Run the LassoNet using CPU Environment (on mice data):
 (1) install necessary packages, e.g. pandas, numpy, bayes_opt, and so on.
 (2) prepare the files.py, data.py, bo.py, data_mice.py. entrymice.py.
 (3) run the model.
-(3) PyTorch Setup
 
-Ensure that you have the appropriate computing environment set up for PyTorch, then run the files: LightGBM, NODE, and TabNet, these models can be executed directly within Anaconda or PyTorch environments.
+
+
+PyTorch Setup: Ensure that you have the appropriate computing environment set up for PyTorch, then run the files: LightGBM, NODE, and TabNet, these models can be executed directly within Anaconda or PyTorch environments.
 
 For the other models, run the respective main files directly. 
 
