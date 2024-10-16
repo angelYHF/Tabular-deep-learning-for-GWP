@@ -33,10 +33,12 @@ Run the LassoNet using CPU Environment (on mice data):
 (2) prepare the files.py, data.py, bo.py, data_mice.py. entrymice.py.
 (3) run the model.
 
-
-
 PyTorch Setup: Ensure that you have the appropriate computing environment set up for PyTorch, then run the files: LightGBM, NODE, and TabNet, these models can be executed directly within Anaconda or PyTorch environments.
 
 For the other models, run the respective main files directly. 
 
 *****Because the pig data is bigger than other four datasets and limited space, it is not possible for us to put all the datasets together. If you need, you can access this data use the link here: https://github.com/angelYHF/Pig-data.
+
+Any problems can email to: angelfyh@gmail.com
+
+Cite this paper as: FAN, Yuhua; WALDMANN, Patrik. Tabular deep learning: a comparative study applied to multi-task genome-wide prediction. BMC bioinformatics, 2024, 25.1: 322.
