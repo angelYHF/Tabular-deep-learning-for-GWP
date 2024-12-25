@@ -37,8 +37,19 @@ PyTorch Setup: Ensure that you have the appropriate computing environment set up
 
 For the other models, run the respective main files directly. 
 
-*****Because the pig data is bigger than other four datasets and limited space, it is not possible for us to put all the datasets together. If you need, you can access this data use the link here: https://github.com/angelYHF/Pig-data.
+LassoNet in CPU environment, running steps are as:
+
+(1) Install required packages, e.g. bayes_opt
+
+(2) Prepare the data for training, validation, and testing (data.py).
+
+(3) Prepare the bo_config_file = 'param_space.yaml'
+
+(4) run the file entry.py
+
+*Because the pig data is bigger than other four datasets and limited space, it is not possible for us to put all the datasets together. If you need, you can access this data use the link here: https://github.com/angelYHF/Pig-data.
 
 Any problems can email to: angelfyh@gmail.com
 
 Cite this paper as: FAN, Yuhua; WALDMANN, Patrik. Tabular deep learning: a comparative study applied to multi-task genome-wide prediction. BMC bioinformatics, 2024, 25.1: 322.
+
